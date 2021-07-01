@@ -1,0 +1,41 @@
+.link-horizontal {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   float: left;
+    width: 720px;
+    background: #30b2c5;
+
+}
+
+.link-horizontal li {
+    float: left;
+  
+}
+
+.link-horizontal a {
+    border-left: 1px solid #189cb0;
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: #fff;
+}
+
+.link-horizontal__home a {
+
+    border-left: none;
+}
+
+.link-horizontal a:hover {
+    color: #085662;
+    background: #44cade;
+  
+}
+
+#home .link-horizontal__home a, #contato .link-horizontal__contato a,
+#noticias .link-horizontal__noticias a, #servicos .link-horizontal__servicos a,
+#sobre .link-horizontal__sobre a {
+    color: #085662;
+    background: #44cade;
+}
