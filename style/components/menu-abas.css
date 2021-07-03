@@ -1,0 +1,35 @@
+.menu-abas {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+.menu-abas li {
+    float: left;
+   
+}
+
+.menu-abas li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: #FE8932;
+    border: 1px solid #DC7D40;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+}
+
+.menu-abas li a:hover {
+    background: #FFB200;
+    border: 1px solid #FFAB1F;
+    color: #894a1f;
+}
+
+#contato .menu-abas__abas a{
+    background: #FFB200;
+    border: 1px solid #FFAB1F;
+    color: #894a1f;
+}

@@ -1,2 +1,8 @@
 @import url(./components/menu-vertical.css);
 @import url(./components/menu-horizontal.css);
+@import url(./components/menu-abas.css);
+
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
